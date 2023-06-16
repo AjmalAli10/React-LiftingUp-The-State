@@ -32,7 +32,7 @@ const CollapsibleCard = () => {
         isVisible={isVisibleSection === 0}
         value={0}
         setIsVisibleSection={setIsVisibleSection}
-        title={'About'}
+        title={'CollapsibleCard-1'}
         description={
           'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney'
         }
@@ -41,7 +41,7 @@ const CollapsibleCard = () => {
         isVisible={isVisibleSection === 1}
         setIsVisibleSection={setIsVisibleSection}
         value={1}
-        title={'Team'}
+        title={'CollapsibleCard-2'}
         description={
           'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney'
         }
@@ -50,7 +50,7 @@ const CollapsibleCard = () => {
         isVisible={isVisibleSection === 2}
         setIsVisibleSection={setIsVisibleSection}
         value={2}
-        title={'Career'}
+        title={'CollapsibleCard-3'}
         description={
           'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney'
         }
